@@ -1,0 +1,16 @@
+%%
+[A-Z][A-Z]*[\t\n ] { printf("%s is valid wordn", yytext); }
+[a-z][a-z]*[\t\n ] { printf("%s is invalid word\n", yytext); }
+.|\n { printf("%s is invalid\n", yytext); }
+%%
+
+int main() 
+{
+    printf("Enter String:\n");
+    yylex();
+}
+
+int yywrap() 
+{
+    return 1;
+}
