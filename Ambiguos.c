@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
-
+ 
 #define MAX_PRODUCTIONS 100
 
 bool isAmbiguous(char productions[][50], int numProductions) {
