@@ -4,7 +4,6 @@ int main() {
     int a = 5, b = 3, c = 2;
     int result1, result2, result3;
 
-    // Original expressions
     result1 = a + b * c;
     result2 = a + b * c;
     result3 = b * c - a;
