@@ -12,7 +12,7 @@ int main() {
         if (input[i] == ' ') {
             whitespaceCount++;
         } else if (input[i] == '\n') {
-            newlineCount++;
+            newlineCount++; 
         }
     }
 
