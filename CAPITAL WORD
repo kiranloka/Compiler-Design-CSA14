@@ -7,7 +7,7 @@
 int main() 
 { 
     printf("Enter String:\n");
-    yylex();
+    yylex(); 
 }
 
 int yywrap() 
