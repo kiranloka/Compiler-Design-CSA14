@@ -7,7 +7,7 @@
      printf("Enter Production : A->");  
       gets(gram);  
       for(i=0;gram[i]!='|';i++,j++)  
-            part1[j]=gram[i];  
+            part1[j]=gram[i];   
       part1[j]='\0';  
       for(j=++i,i=0;gram[j]!='\0';j++,i++)  
            part2[i]=gram[j];  
