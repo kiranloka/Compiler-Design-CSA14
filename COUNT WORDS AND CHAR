@@ -1,6 +1,6 @@
 %{
 #include<stdio.h>
-int lc=0,sc=0,ch=0,wc=0;        
+int lc=0,sc=0,ch=0,wc=0;         
 %}
 
 
