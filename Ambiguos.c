@@ -4,7 +4,6 @@
 
 #define MAX_PRODUCTIONS 100
 
-// Function to check if a grammar is ambiguous
 bool isAmbiguous(char productions[][50], int numProductions) {
     for (int i = 0; i < numProductions; i++) {
         for (int j = i + 1; j < numProductions; j++) {
