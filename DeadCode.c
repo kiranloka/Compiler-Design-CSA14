@@ -2,7 +2,7 @@
 #include <stdbool.h>
 #include <string.h>
 
-bool isUnconditionalBranch(const char *line) {
+bool isUnconditionalBranch(const char *line) { 
     return strstr(line, "return") || strstr(line, "exit(");
 }
 
