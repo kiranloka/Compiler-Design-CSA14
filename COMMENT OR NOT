@@ -7,7 +7,7 @@ int main() {
     printf("\nEnter Text: ");
     gets(com);
 
-    if (com[0] == '/' && com[1] == '/') {
+    if (com[0] == '/' && com[1] == '/') { 
         printf("\nIt is a Comment.");
     } else if (com[0] == '/' && com[1] == '*') {
         for (i = 2; i <= 30; i++) {
